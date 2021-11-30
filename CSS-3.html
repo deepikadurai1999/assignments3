@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-3</title>
+    <style>
+        body{
+            background-color: indianred;
+        }
+        .box {
+            border: 3px solid green;
+            padding: 20px;
+            margin: 10px auto;
+            width: 453px;
+            height: 130px;
+            border-radius: 21px;
+            text-align: center;
+            background-color: black;
+            color: blanchedalmond;
+        }
+
+        .container {
+            background-position: center;
+            background-size: cover;
+            border: 3px solid greenyellow;
+            margin: 1px;
+            width: 100%;
+            height: 100%;
+        }
+
+        .pen {
+            border: 2px solid black;
+            background-color: blue;
+            display: inline-block;
+
+        }
+
+        #second {
+            display: absolute;
+            float: right;
+            padding: 19px;
+            margin: 2px 34px;
+            width: 270px;
+            height: 160px;
+            border-radius: 15px;
+        }
+
+        #third {
+            padding: 19px;
+            margin: 2px 2px;
+            width: 270px;
+            height: 160px;
+            border-radius: 15px;
+        }
+
+        .pencil {
+            border: 2px solid black;
+            background-color: blue;
+            display: inline-block;
+            text-align: center;
+
+
+        }
+
+        #four {
+            padding: 19px;
+            margin: 2px 2px;
+            width: 270px;
+            height: 160px;
+            border-radius: 15px;
+        }
+
+        #five {
+            display: absolute;
+            float: right;
+            padding: 19px;
+            margin: 2px 34px;
+            width: 270px;
+            height: 160px;
+            border-radius: 15px;
+        }
+
+        .ten {
+            border: 3px solid green;
+            padding: 15px;
+            margin: 25px auto;
+            width: 453px;
+            height: 69px;
+            border-radius: 23px;
+            text-align: center;
+            background-color: black;
+            color: blanchedalmond;
+            
+
+        }
+        #nine{
+            position: fixed;
+            top: 370px;
+            left: 400px;
+        }
+        .rotor{
+            width: 700px;
+            border: 3px solid black;
+            margin: 33px auto;
+            box-sizing: border-box;
+            background-color: skyblue;
+        }
+
+
+        .system{
+            border: 3px solid red;
+            margin: 12px 11px;
+            padding: 12px 3px;
+            background: greenyellow;
+        }
+        #fruits{
+            float: left;
+            width: 45%;
+        }
+        #vegetable{
+            float: right;
+            width: 45%;}
+        #other{
+            clear: both;
+            width: 96%;
+        }
+        .book{
+            text-align: center;
+            
+        }
+        #mouse{
+            width:160px;
+            margin: auto;
+            display: block;
+        }
+        
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="first" class=box>
+        <h2>Welcome to </h2>
+        <h2>all-in-one</h2>
+        <h2>one general store</h2>
+    </div>
+    <div class="container">
+
+        <div id="third" class=pen>
+            <h2>Welcome to my dhaba you get the quality food</h2>
+        </div>
+        <div id="second" class=pen>
+            <img id="mouse" src="./th.jpg" alt="">
+        </div>
+        <div>
+            <div id="nine" class="ten">
+                <h2>discount</h2>
+
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="store">
+            <div id="four" class=pencil>
+                <h2>Welcome to my dhaba you get the quality food</h2>
+            </div>
+            <div id="five" class=pencil>
+                <h2>PLEASE RATE US</h2>
+                <form action="">
+                    <label for="rate">RATE US</label>
+                    <br>
+                    <input type="number" id="rate" name="my rate">
+                    <br>
+                    <br>
+                    <label for="submit">SUBMIT</label>
+                    <br>
+                    <input type="submit" id="submit" name="my submit">
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="rotor">
+        <h2 class="book">Welcome To my store</h2>
+
+        <div id="fruits" class="system">
+            <h3>FRUITS</h3>
+
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae dignissimos,
+                consequuntur explicabo, omnis reprehenderit quos iure corporis a eveniet, ea animi sit! Distinctio
+                fugiat earum odit facere cumque maxime, et sit iure nostrum debitis Lorem ipsum, dolor sit amet
+                consectetur adipisicing elit. Consectetur fuga alias a quasi ullam aperiam quibusdam debitis cum
+                asperiores dicta!</p>
+        </div>
+        <div id="vegetable" class="system">
+            <h3>vegetable</h3>
+
+            <p id="secondpara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
+                dignissimos,consequuntur explicabo, omnis reprehenderit quos iure corporis a eveniet, ea animi sit
+                Distinctio fugiat earum odit facere cumque maxime, et sit iure nostrum debitis Lorem ipsum dolor,sit
+                amet consectetur adipisicing elit. Magni, omnis tempora iure sint neque et! Optio voluptas accusamus
+                suscipit voluptate?</p>
+        </div>
+        <div id="other" class="system">
+            <h3>other items</h3>
+
+            <p id="thirdpara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae dignissimos,
+                consequuntur explicabo, omnis reprehenderit quos iure corporis a eveniet, ea animi sit! Distinctio
+                fugiat earum odit facere cumque maxime, et sit iure nostrum debitis.</p>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
